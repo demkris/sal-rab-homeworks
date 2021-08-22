@@ -17,10 +17,11 @@ function calcShipping(sum, min, shipping)
     }  
     // то shippingSum присвоить значение shippingPrice
     else
-    {shippingSum == shippingPrice;}
+    {
+        shippingSum == shippingPrice;
+    }
     // Конец решения задания №2.1.
-
-    return shippingSum;;
+    return shippingSum;
 }
 
 function calcDiscount(sum, min, discount) {
@@ -36,7 +37,7 @@ function calcDiscount(sum, min, discount) {
     // то присвойте discountSum значение discountPart процентов от productsSum,
     if (productsSum >= discountMinSum) 
     {
-        discountSum==discountPart / 100 * productsSum;
+        discountSum == discountPart / 100 * productsSum;
     }  
     // иначе присвойте discountSum значение 0
     else
